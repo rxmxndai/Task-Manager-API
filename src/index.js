@@ -2,8 +2,7 @@ const express = require('express')
 require('./db/mongoose')
 const userRouter = require('../src/routers/user')
 const taskRouter = require('../src/routers/task')
-// const Task = require('./models/task')
-// const User = require('./models/user')  
+ 
 const app = express()
 const PORT = process.env.PORT
 
